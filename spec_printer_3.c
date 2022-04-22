@@ -51,4 +51,5 @@ void convert_fmt_fF(va_list *args_list, fmt_info_t *fmt_info)
 		if (str != NULL)
 			free(str);
 		free_float_info(flt_info);
-	
+	}
+}
